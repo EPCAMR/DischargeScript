@@ -1,0 +1,65 @@
+.main-cont {
+	display: flex;
+}
+.point_list {
+	margin: 15px;
+}
+
+.point-group {
+	padding: 5px;
+}
+
+
+.highlight {
+	animation: mymove 5s 1;
+	background-color: initial;
+  }
+  
+@keyframes mymove {
+	from {background-color: #fff200;}
+	to {background-color: initial;}
+  }
+
+
+.scroll-top {
+	margin: 5px;
+	width: 90%;
+}
+.card {
+	width: 100%;
+}
+
+
+#accordion {
+	max-height: 90vh;
+	background-color: #ececec;
+	overflow-y: scroll;
+}
+
+#test_canvas {
+	height: 600px;
+}
+
+.pg-actions {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.pg-actions div svg{
+	padding: 5px;
+	width: 40px;
+	height: auto;
+}
+
+.datashed-ok {
+	padding: 3px;
+	display: none;
+}
+
+.cell {
+	cursor: crosshair;
+}
+
+.crosshair {
+	cursor: cell;
+}
